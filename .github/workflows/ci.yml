@@ -44,7 +44,7 @@ jobs:
       - name: Build the Stack
         run: |
           docker compose -f local.yml build django
-          docker compose -f local.yml build docs
+          docker compose -f docs.yml build docs
 
 
       - name: Run DB Migrations
