@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  docs:
+    image: booij_analytics_local_docs
+    container_name: booij_analytics_local_docs
+    build:
+      context: .
+      dockerfile: ./compose/local/docs/Dockerfile
+    env_file:
+      - ./.envs/.local/.django
+    volumes:
+      - ./docs:/docs:z
+      - ./config:/app/config:z
+      - ./booij_analytics:/app/booij_analytics:z
+    ports:
+      - '9000:9000'
+    command: /start-docs

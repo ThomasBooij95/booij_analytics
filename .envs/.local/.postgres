@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=booij_analytics
+POSTGRES_USER=QKtpskkBDHqwdNjCHIwNvgoOEtjgDpSi
+POSTGRES_PASSWORD=PpmNyLoNGhYD4SMSlE0TJyZXMPkOdv7G2v3I4McoYfd4235AAb5j3KAMxc4dVR4x
