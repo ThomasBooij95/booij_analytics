@@ -82,6 +82,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "booij_analytics.users",
+    "booij_analytics.billing",
+    
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
