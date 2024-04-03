@@ -31,7 +31,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: 'Host(`booijanalytics.nl`) || Host(`www.booijanalytics.nl`)'
+      rule: 'Host(`app.booijanalytics.nl`) || Host(`www.booijanalytics.nl`)'
       entryPoints:
         - web-secure
       middlewares:
@@ -42,7 +42,7 @@ http:
         certResolver: letsencrypt
 
     flower-secure-router:
-      rule: 'Host(`booijanalytics.nl`)'
+      rule: 'Host(`app.booijanalytics.nl`)'
       entryPoints:
         - flower
       service: flower
